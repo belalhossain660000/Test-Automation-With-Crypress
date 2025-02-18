@@ -1,0 +1,22 @@
+{
+  "name": "test-automation-with-crypress",
+  "version": "1.0.0",
+  "description": "A Demo Test Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belalhossain660000/Test-Automation-With-Crypress.git"
+  },
+  "author": "Belal Hossain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belalhossain660000/Test-Automation-With-Crypress/issues"
+  },
+  "homepage": "https://github.com/belalhossain660000/Test-Automation-With-Crypress#readme",
+  "devDependencies": {
+    "cypress": "^14.0.3"
+  }
+}
