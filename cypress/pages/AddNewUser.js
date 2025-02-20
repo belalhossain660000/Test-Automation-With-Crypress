@@ -1,3 +1,5 @@
+import 'cypress-xpath';
+
 export class AddNewUser {
 
     PageLocators = {
@@ -17,14 +19,12 @@ export class AddNewUser {
     }
 
     SelectRoleAdmin() {
-        let AllElements = cy.get(this.PageLocators.Role);
-        AllElements[0].click();
+        cy.get(this.PageLocators.Role).eq(0).click();
         cy.xpath(this.PageLocators.AdminXpath).click();
     }
 
     SelectRoleStatus() {
-        let AllElements = cy.get(this.PageLocators.Role);
-        AllElements[1].click();
+        cy.get(this.PageLocators.Role).eq(1).click();
         cy.xpath(this.PageLocators.StatusXpath).click();
     }
 }
